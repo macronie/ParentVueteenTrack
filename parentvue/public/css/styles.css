@@ -1,0 +1,114 @@
+.labels {
+  color: black;
+  background-color: whitesmoke;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 40px;
+  white-space: nowrap;
+  opacity:1.0;
+    border-style: dotted;
+    border-width: 1px;
+}
+     /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+    
+    content {
+    top-padding:5px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    
+    .groupdropdown > ul > li > a .fa{
+    visibility:hidden;
+    }
+    .groupdropdown > ul > li > a.selected .fa{
+        visibility:visible;
+    }
+    
+/*    style for searchbox on google map*/
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 300px;
+      }
+      
+      #pac-select {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 2px;
+        padding: 0 11px 0 5px;
+        text-overflow: ellipsis;
+        width: 100px;
+      }
+      
+      #pac-btn {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 135px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 10px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      #target {
+        width: 345px;
+      }
+
